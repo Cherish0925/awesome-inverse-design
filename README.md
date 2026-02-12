@@ -33,56 +33,13 @@
 - [femwell](https://github.com/HelgeGehring/femwell) - FEM waveguide mode solver for photonics.
 - [meow](https://github.com/flaport/meow) - Eigenmode expansion (EME) solver for photonic waveguides.
 
-## Inverse Design & Optimization Frameworks
+## Other Inverse Design & Optimization Tools
 - [EMopt](https://github.com/anstmichaels/emopt) - Shape and topology optimization for 2D/3D EM structures using the adjoint method.
 - [PhoTOS](https://github.com/aadityacs/PhoTOS) - Topology optimization with shape libraries and VAE-based feature mapping for fabrication-aware photonic design.
 - [NIDN](https://github.com/esa/NIDN) - Neural inverse design of nanostructures with PyTorch, RCWA and FDTD forward models. *(ESA)*
 - [lumopt](https://github.com/chriskeraly/lumopt) - Adjoint optimization wrapper for Lumerical FDTD.
 - [PreFab](https://github.com/PreFab-Photonics/PreFab) - Deep learning model predicting post-fabrication structures from GDS layouts for fab-aware optimization.
 
-## Circuit Simulation
-- [SAX](https://github.com/flaport/sax) - Differentiable S-parameter circuit solver in JAX.
-- [Simphony](https://github.com/BYUCamachoLab/simphony) - Linear photonic circuit simulator.
-
-## Layout & Fabrication
-- [GDSFactory](https://github.com/gdsfactory/gdsfactory) - Parametric photonic chip design and GDSII layout generation in Python.
-- [gdstk](https://github.com/heitzmann/gdstk) - Fast GDSII/OASIS layout library in C++ with Python bindings.
-- [KLayout](https://github.com/KLayout/klayout) - Layout viewer and editor with Python scripting, widely used in photonic fabs.
-
-## Feature Comparison
-
-| Tool | Method | Autodiff | GPU | Language |
-|------|--------|----------|-----|----------|
-| MEEP | FDTD | adjoint | — | C++/Python |
-| BEAMZ | FDTD | JAX | ✓ | Python |
-| FDTDx | FDTD | JAX | ✓ | Python |
-| Tidy3D | FDTD | adjoint | cloud | Python |
-| fdtdz | FDTD | JAX | ✓ | Python |
-| Khronos.jl | FDTD | — | ✓ | Julia |
-| Luminescent.jl | FDTD | Zygote | ✓ | Julia |
-| Ceviche | FDFD/FDTD | autograd | — | Python |
-| Angler | FDFD | adjoint | — | Python |
-| SPINS-B | FDFD | adjoint | — | Python |
-| S4 | RCWA | — | — | C++/Python/Lua |
-| FMMAX | FMM | JAX | ✓ | Python |
-| Meent | RCWA | JAX/PyTorch | ✓ | Python |
-| torcwa | RCWA | PyTorch | ✓ | Python |
-| TMM | TMM | — | — | Python |
-| tmmax | TMM | JAX | ✓ | Python |
-| MPB | PWE | — | — | C++/Python |
-| Legume | GME | autograd | — | Python |
-| femwell | FEM | — | — | Python |
-| meow | EME | — | — | Python |
-| EMopt | FDFD/FEM | adjoint | — | Python |
-| PhoTOS | TO | — | — | Python/MATLAB |
-| NIDN | RCWA/FDTD | PyTorch | ✓ | Python |
-| lumopt | FDTD | adjoint | — | Python |
-| PreFab | ML | PyTorch | ✓ | Python |
-| SAX | circuit | JAX | ✓ | Python |
-| Simphony | circuit | — | — | Python |
-| GDSFactory | layout | — | — | Python |
-| gdstk | layout | — | — | C++/Python |
-| KLayout | layout | — | — | C++/Python/Ruby |
 
 ## Tutorials & Challenges
 - [Inverse Design Workshop](https://github.com/fancompute/workshop-invdesign) - Hands-on workshop materials. *(Fan Group, Stanford)*
@@ -107,9 +64,8 @@
 - [Ma et al. (2021)](https://doi.org/10.1038/s41566-020-0685-y) - Deep learning for design of photonic structures. *Nature Photonics*
 
 ## Also See
-- [awesome_photonics](https://github.com/joamatab/awesome_photonics) - Comprehensive list of open-source photonics projects.
-- [Awesome-PDA](https://github.com/zhengqigao/Awesome-PDA) - Papers on photonic design automation.
-- [GitHub: inverse-design topic](https://github.com/topics/inverse-design)
+- [Awesome Photonics](https://github.com/joamatab/awesome_photonics) - Comprehensive list of open-source photonics projects.
+- [Awesome PDA](https://github.com/zhengqigao/Awesome-PDA) - Papers on photonic design automation.
 
 <details><summary>More tools (less actively maintained or more niche)</summary>
 
