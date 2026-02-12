@@ -3,7 +3,7 @@
 
 ## FDTD Engines
 - [MEEP](https://github.com/NanoComp/meep) - MIT's open-source FDTD engine with adjoint solver, the most widely used in photonics.
-- [BEAMZ](https://github.com/QuentinWach/beamz) - Multi-physics FDTD and gradient-based optimization with JAX.
+- [BEAMZ](https://github.com/QuentinWach/beamz) - FDTD and gradient-based optimization with JAX.
 - [FDTDx](https://github.com/ymahlau/fdtdx) - FDTD and inverse design with JAX and memory-efficient autodiff.
 - [Tidy3D](https://github.com/flexcompute/tidy3d) - Cloud-based FDTD with built-in adjoint optimization and mode solver. *(Flexcompute; originated in Fan Group, Stanford)*
 - [fdtdz](https://github.com/spinsphotonics/fdtdz) - Ultra-fast GPU FDTD in JAX, ~100x speedup over CPU solvers. *(SPINS Photonics)*
