@@ -19,19 +19,6 @@
 > ***Vuckovic Group, Stanford:***
 - [SPINS-B](https://github.com/stanfordnqp/spins-b) - Gradient-based photonic optimization library using FDFD.
 
-## RCWA & Transfer Matrix
-- [S4](https://github.com/victorliu/S4) - Rigorous coupled-wave analysis (RCWA) for layered periodic structures. *(Fan Group, Stanford)*
-- [FMMAX](https://github.com/facebookresearch/fmmax) - Fourier Modal Method in JAX with Brillouin zone integration. *(Meta Research)*
-- [Meent](https://github.com/kc-ml2/meent) - RCWA with NumPy, JAX, and PyTorch backends for differentiable optimization.
-- [torcwa](https://github.com/kch3782/torcwa) - GPU-accelerated RCWA with PyTorch automatic differentiation.
-- [TMM](https://github.com/sbyrnes321/tmm) - Transfer matrix method for thin/thick multilayer film optics.
-- [tmmax](https://github.com/bahremsd/tmmax) - GPU-accelerated transfer matrix method in JAX.
-
-## Mode Solvers & Photonic Crystals
-- [MPB](https://github.com/NanoComp/mpb) - MIT Photonic-Bands: Bloch-mode solver for photonic band structures in periodic media.
-- [Legume](https://github.com/fancompute/legume) - Guided-mode expansion for photonic crystal slabs with automatic differentiation. *(Fan Group, Stanford)*
-- [femwell](https://github.com/HelgeGehring/femwell) - FEM waveguide mode solver for photonics.
-- [meow](https://github.com/flaport/meow) - Eigenmode expansion (EME) solver for photonic waveguides.
 
 ## Other Inverse Design & Optimization Tools
 - [EMopt](https://github.com/anstmichaels/emopt) - Shape and topology optimization for 2D/3D EM structures using the adjoint method.
@@ -77,5 +64,19 @@
 - [DL4TO](https://github.com/dl4to/dl4to) - Deep learning for 3D topology optimization in PyTorch.
 - [OpenEMS](https://github.com/thliebig/openEMS) - EC-FDTD electromagnetic solver.
 - [InverseBench](https://github.com/devzhk/InverseBench) - Benchmarks for diffusion-based scientific inverse problems. *(ICLR 2025)*
+- [TMM](https://github.com/sbyrnes321/tmm) - Transfer matrix method for thin/thick multilayer film optics.
+
+## RCWA & Transfer Matrix
+- [S4](https://github.com/victorliu/S4) - Rigorous coupled-wave analysis (RCWA) for layered periodic structures. *(Fan Group, Stanford)*
+- [FMMAX](https://github.com/facebookresearch/fmmax) - Fourier Modal Method in JAX with Brillouin zone integration. *(Meta Research)*
+- [Meent](https://github.com/kc-ml2/meent) - RCWA with NumPy, JAX, and PyTorch backends for differentiable optimization.
+- [torcwa](https://github.com/kch3782/torcwa) - GPU-accelerated RCWA with PyTorch automatic differentiation.
+- [tmmax](https://github.com/bahremsd/tmmax) - GPU-accelerated transfer matrix method in JAX.
+
+## Mode Solvers & Photonic Crystals
+- [MPB](https://github.com/NanoComp/mpb) - MIT Photonic-Bands: Bloch-mode solver for photonic band structures in periodic media.
+- [Legume](https://github.com/fancompute/legume) - Guided-mode expansion for photonic crystal slabs with automatic differentiation. *(Fan Group, Stanford)*
+- [femwell](https://github.com/HelgeGehring/femwell) - FEM waveguide mode solver for photonics.
+- [meow](https://github.com/flaport/meow) - Eigenmode expansion (EME) solver for photonic waveguides.
 
 </details>
