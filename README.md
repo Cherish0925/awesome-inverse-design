@@ -7,7 +7,7 @@
 - [FDTDx](https://github.com/ymahlau/fdtdx): FDTD and inverse design with Jax.
 
 
-
+---
 
 - [EMopt](https://github.com/anstmichaels/emopt): Shape and topology optimization for 2D/3D EM structures using the adjoint method.
 - [PhoTOS](https://github.com/aadityacs/PhoTOS): Topology optimization with shape libraries and VAE-based feature mapping for fabrication-aware photonic design.
@@ -26,9 +26,10 @@
 - [SPINS-B](https://github.com/stanfordnqp/spins-b): Stanford's gradient-based photonic optimization library using FDFD.
 
 
-## Design Tutorials & Challenges
+## Design Tutorials, Challenges, and Examples
 - [Inverse Design Workshop (Fan Group)](https://github.com/fancompute/workshop-invdesign)
 - [Ceviche Challenges (Google)](https://github.com/google/ceviche-challenges)
 - [Gym](https://github.com/invrs-io/gym)
 - [Inverse Design Tutorial (Christiansen & Sigmund, 2021)](https://doi.org/10.1364/JOSAB.406048): Comprehensive tutorial on topology optimization for photonics.
 - [Tidy3D Inverse Design Lectures](https://www.flexcompute.com/tidy3d/learning-center/inverse-design/): Free video lecture series on inverse design methods.
+- [Tidy3D Example Library](https://www.flexcompute.com/tidy3d/learning-center/example-library)
